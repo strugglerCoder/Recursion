@@ -6,7 +6,7 @@ public class LetterCount {
         System.out.println(let_cnt(str, str.length()));
     }
 
-    static int let_cnt(String str,int n)
+   static int let_cnt(String str,int n)
     {
         if (n == 0) {
             return 0;
