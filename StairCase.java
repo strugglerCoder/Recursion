@@ -6,7 +6,6 @@ public class StairCase {
 
         System.out.println(noOfWays(no_of_steps));
     }
-
     static int noOfWays(int n)
     {
         if(n<=2)
