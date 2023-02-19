@@ -8,7 +8,6 @@ public class BinaryNo {
         int pos = 0;
         binaryCombo(n, pos, arr);
     }
-
     static void binaryCombo(int n, int pos, int arr[]) {
         if (pos == n) {
             for (int i : arr) {
